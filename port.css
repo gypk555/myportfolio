@@ -1,0 +1,181 @@
+*
+    {
+        margin:0;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+
+
+
+.navbar
+    {
+        height: 4em;
+        background-color:rgb(189, 181, 181);
+        color:black;
+        font-weight: 700;
+        font-size: large;
+        display:flex;       
+        justify-content:space-between;
+        align-items:center;
+    }
+
+.name
+    {
+        margin-left: 3%;
+        padding-left: 2%;
+    }
+
+.navbar-details
+    {
+        display:flex;       
+        justify-content:flex-end;
+        align-items:center;
+    }
+
+.menu
+    {
+        display: none;
+    }
+
+.menu:hover
+    {
+        color: rgb(77, 154, 226);
+        background-color: rgb(93, 193, 233);
+    }
+
+.nav-a
+    {
+        color:black;
+        font-weight: 700;
+        font-size: large;
+    }
+    
+a  
+    {
+        font-size: 1em;
+        color:white;
+        text-decoration:none;
+        padding-right:5px;
+    }
+
+.main
+    {
+        
+        background-color:aqua;
+    }
+
+.list_style
+    {
+        list-style-type: circle;
+        font-size: 18px;
+    }
+
+.footer
+    {
+        height: 20em;
+        background-color: black;
+        color:white;
+        display:flex;
+        justify-content:space-evenly;
+        align-items: center;       
+    }
+
+.contact_heading
+    {
+        border-top: 10px;
+        padding-top: 5%;
+        text-align: center;
+        color: white;
+        background-color: black;
+    }
+
+a:hover
+    {
+        color:rgb(0, 167, 245);
+    }
+
+li:hover
+    {
+        color:rgb(0, 167, 245);
+    }
+
+.Thanks
+    {
+        text-align:center; 
+    }
+
+#Address
+    {
+        height:3em;
+    }
+
+#Hobbies
+    {
+        height: 5em;
+    }
+
+#Social-Media
+    {
+        height: 3em;
+    }
+
+#contact-me 
+    {
+        height: 3em;
+    }
+
+ul
+    {
+    list-style-type: none;
+    }
+
+.copyright
+    {
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+
+
+    @media (min-width: 200px ) and (max-width:850px)
+    {
+        *
+            {
+                margin:0;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        .navbar
+            {
+                height: 3em;  
+                margin-left: 10px;
+                font-size: medium;
+                /* display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content: center; */
+            }
+        .name   
+            {
+                
+                margin: 0px;
+               
+            }
+        .navbar-details
+            {
+                display: none;
+            }
+        .menu
+            {
+                display: flex;
+                flex-direction: row-reverse;
+                /* align-items: flex-end; */
+            }
+    }
+
+/* aside
+    {
+        width: 20%;
+        margin-left: 20px;
+        float: right;
+        box-shadow: inset 5px 0 5px -5px #29627e;
+    } */
